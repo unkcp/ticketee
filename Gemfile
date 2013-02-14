@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'https://ruby.taobao.org'
 
 gem 'rails', '3.2.12'
 
@@ -44,8 +44,9 @@ end
 
 group :test do
   gem "factory_girl_rails", ">= 1.6.0"
-  gem "cucumber-rails", ">= 1.2.1"
+  gem "cucumber-rails", "~> 1.0.6"
   gem "capybara", ">= 1.1.2"
   gem "database_cleaner"
   gem "launchy"
 end
+

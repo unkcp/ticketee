@@ -1,0 +1,7 @@
+(source "melpa" "http://melpa.milkbox.net/packages/")
+
+(package "super-duper" "0.0.1" "Super Duper.")
+
+(development
+  (depends-on "ecukes")
+  (depends-on "espuds"))
